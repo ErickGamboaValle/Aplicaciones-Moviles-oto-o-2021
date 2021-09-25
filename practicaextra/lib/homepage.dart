@@ -126,9 +126,8 @@ class _homepageState extends State<homepage> {
                 children: [
                   Column(
                     children: [
-                      Text("Pag texto => ${textController.text}"),
-                      SizedBox(width: 20, height: 50),
-                      Text("Pag numero => ${resultado ?? ''}"),
+                      Text(
+                          "Pag texto => ${textController.text}  ${resultado ?? ''}"),
                       SizedBox(width: 20, height: 50),
                       Text("Pag emote => ${face ?? ''}"),
                     ],
